@@ -70,12 +70,13 @@ html {
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	font-style: normal;
 	line-height: 1.5;
 	position: relative;
+	overflow-x: hidden;
 	visibility: visible;
 	color: #666;
 	background-color: #fff;
@@ -271,7 +272,7 @@ select {
 }
 
 .header-offer-sticker p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	/* font-weight: 700; */
 	line-height: 38px;
@@ -313,7 +314,7 @@ select {
 }
 
 .header-top-dropdown>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
@@ -352,7 +353,7 @@ select {
 }
 
 .header-top-dropdown__list li a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-size: 14px;
 	font-weight: 400;
@@ -571,7 +572,7 @@ select {
 }
 
 .header-contact-info__list li a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
@@ -630,7 +631,7 @@ select {
 }
 
 .header-icon-area .account-dropdown>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
@@ -668,7 +669,7 @@ select {
 }
 
 .header-icon-area .account-dropdown__list li a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-size: 14px;
 	font-weight: 400;
@@ -718,7 +719,7 @@ select {
 }
 
 .header-icon__list li>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 21px;
@@ -730,7 +731,7 @@ select {
 }
 
 .header-icon__list li>a>.item-count {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 16px;
@@ -775,7 +776,7 @@ select {
 }
 
 .minicart-wrapper__title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 1.6;
@@ -837,7 +838,7 @@ select {
 }
 
 .minicart-wrapper__items__single .content .product-title a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 18px;
@@ -849,7 +850,7 @@ select {
 }
 
 .minicart-wrapper__items__single .content .product-calculation .count {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 22px;
@@ -857,7 +858,7 @@ select {
 }
 
 .minicart-wrapper__items__single .content .product-calculation .price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 22px;
@@ -865,7 +866,7 @@ select {
 }
 
 .minicart-wrapper__items__single .content .wishlist-cart-icon {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 13px;
 	font-weight: 700;
 	line-height: 22px;
@@ -873,7 +874,7 @@ select {
 }
 
 .minicart-wrapper__subtotal {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 26px;
@@ -886,7 +887,7 @@ select {
 }
 
 .minicart-wrapper__subtotal span {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 29px;
@@ -895,7 +896,7 @@ select {
 }
 
 .minicart-wrapper__featuretext {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
@@ -972,7 +973,7 @@ select {
 }
 
 .header-navigation-wrapper nav>ul>li>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 21px;
@@ -1008,16 +1009,16 @@ select {
 
 .header-navigation-wrapper nav>ul>li:hover .submenu {
 	visibility: visible;
-	-webkit-transform: translate(-20px, 0);
+	/* -webkit-transform: translate(-20px, 0);
 	-ms-transform: translate(-20px, 0);
-	transform: translate(-20px, 0);
+	transform: translate(-20px, 0); */
 	opacity: 1;
 }
 
 .header-navigation-wrapper nav>ul>li:hover .submenu--column-3 {
-	-webkit-transform: translate(-250px, 0);
+	/* -webkit-transform: translate(-250px, 0);
 	-ms-transform: translate(-250px, 0);
-	transform: translate(-250px, 0);
+	transform: translate(-250px, 0); */
 }
 
 /* submenu */
@@ -1025,17 +1026,17 @@ select {
 .submenu {
 	position: absolute;
 	z-index: 1001;
+	left: 0;
 	top: 100%;
 	visibility: hidden;
 	-webkit-transition: .3s;
 	transition: .3s;
-	-webkit-transform: translate(-20px, 20px);
-	-ms-transform: translate(-20px, 20px);
-	transform: translate(-20px, 20px);
 	opacity: 0;
 	background-color: #fff;
 	-webkit-box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, .29);
 	box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, .29);
+	right: 0;
+    transform: translate(-29%, 10px);
 }
 
 .submenu--home-variation {
@@ -1069,7 +1070,7 @@ select {
 }
 
 .submenu--home-variation__item__title a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 16px;
@@ -1145,7 +1146,7 @@ select {
 }
 
 .submenu--column-1>li>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 21px;
@@ -1185,15 +1186,15 @@ select {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	width: 860px;
+	width: 100vw;
 	padding: 60px 50px;
-	-webkit-transform: translate(-250px, 20px);
-	-ms-transform: translate(-250px, 20px);
-	transform: translate(-250px, 20px);
-	-webkit-box-pack: start;
-	-webkit-justify-content: start;
-	-ms-flex-pack: start;
-	justify-content: start;
+	/* -webkit-transform: translate(-405px, 20px);
+	-ms-transform: translate(-405px, 20px);
+	transform: translate(-405px, 20px); */
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
 }
 
 .submenu--column-3>li {
@@ -1218,15 +1219,14 @@ select {
 }
 
 .submenu--column-3>li>ul>li.megamenu-title {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 14px;
+	font-family: 'Gilroy', sans-serif;
+	font-size: 20px;
 	font-weight: 700;
 	line-height: 17px;
 	margin-top: 0;
 	margin-bottom: 12px;
 	padding-bottom: 24px;
 	color: #212121;
-	border-bottom: 1px solid #eee;
 }
 
 .submenu--column-3>li>ul>li:nth-child(2) {
@@ -1234,9 +1234,9 @@ select {
 }
 
 .submenu--column-3>li>ul>li>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: bolder;
 	line-height: 21px;
 	position: relative;
 	display: block;
@@ -1405,7 +1405,7 @@ select {
 }
 
 .offcanvas-naviagtion>ul>li>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 22px;
@@ -1422,7 +1422,7 @@ select {
 }
 
 .offcanvas-naviagtion ul.sub-menu>li>a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
@@ -1504,12 +1504,13 @@ select {
 .footer-navigation-area {
 	padding-top: 100px;
 	padding-bottom: 35px;
-	background-color: #111;
+	background-color: #22305d;
 }
 
 .footer-copyright-area {
 	padding: 30px 0;
-	background-color: #333;
+	background-color: #22305d;
+	border-top: 1px solid;
 }
 
 .footer-copyright-area--two {
@@ -1518,7 +1519,7 @@ select {
 }
 
 .copyright-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 22px;
@@ -1534,7 +1535,7 @@ select {
 }
 
 .copyright-text--two {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 17px;
@@ -1559,7 +1560,7 @@ select {
 }
 
 .footer-widget__title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 20px;
@@ -1568,17 +1569,8 @@ select {
 	color: #fff;
 }
 
-.footer-widget__title:after {
-	display: block;
-	width: 50px;
-	height: 2px;
-	margin-top: 15px;
-	content: '';
-	background-color: #333;
-}
-
 .footer-widget__text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -1591,12 +1583,12 @@ select {
 }
 
 .footer-widget__navigation ul li a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: bolder;
 	line-height: 22px;
 	padding: 5px 0;
-	color: #999;
+	color: #e3ebdb;
 }
 
 .footer-widget__navigation ul li a:hover {
@@ -1648,17 +1640,17 @@ select {
 }
 
 .footer-widget__newsletter-form button {
-	font-weight: 700;
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	padding: 0 20px;
-	-webkit-transition: .3s;
-	transition: .3s;
-	color: #fff;
-	border: 1px solid #aaa;
-	background-color: #aaa;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    font-weight: bolder;
+    padding: 0 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #151515;
+    border: 1px solid #aaa;
+    background-color: #ebeffb;
 }
 
 .footer-widget__newsletter-form button:hover {
@@ -1689,7 +1681,7 @@ select {
 }
 
 .footer-newsletter-widget__title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 35px;
 	font-weight: 700;
 	line-height: 38px;
@@ -1749,7 +1741,7 @@ select {
 }
 
 .single-sidebar-widget__title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 24px;
@@ -1817,7 +1809,7 @@ select {
 }
 
 .single-sidebar-widget__dropdown>li a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 1;
@@ -1968,7 +1960,7 @@ select {
 }
 
 .theme-button--minicart-button {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 26px;
@@ -2006,7 +1998,7 @@ select {
 }
 
 .theme-button--banner--scale {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 22px;
@@ -2064,7 +2056,7 @@ select {
 }
 
 .theme-button--small {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 22px;
@@ -2073,7 +2065,7 @@ select {
 }
 
 .theme-button--medium {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 22px;
@@ -2082,7 +2074,7 @@ select {
 }
 
 .theme-button--large {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 22px;
@@ -2091,7 +2083,7 @@ select {
 }
 
 .theme-button--extra-large {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 22px;
@@ -2128,7 +2120,7 @@ select {
 /* category button */
 
 .category-button--shop-now {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 18px;
@@ -2143,7 +2135,7 @@ select {
 /* blog readmore link */
 
 .blog-readmore-link {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
@@ -2162,7 +2154,7 @@ select {
 /* slider text shop now button */
 
 .slider-text-link {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 22px;
@@ -2369,7 +2361,7 @@ select {
 }
 
 .section-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 65px;
@@ -2378,21 +2370,9 @@ select {
 	margin-top: -20px;
 	margin-bottom: 0;
 	padding-bottom: 15px;
-	color: #000;
+	color: #21305c;
 }
 
-.section-title:after {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 100px;
-	height: 2px;
-	content: '';
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
-	background-color: #ccc;
-}
 
 .section-title--left-align:after {
 	left: 0;
@@ -2402,7 +2382,7 @@ select {
 }
 
 .section-subtitle {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -2452,12 +2432,12 @@ select {
 .single-category--type-one {
 	-webkit-transition: .3s;
 	transition: .3s;
-	border-bottom: 2px solid #f5f5f5;
 }
 
 .single-category--type-one__image {
 	overflow: hidden;
 	margin-bottom: 20px;
+	position: relative;
 }
 
 .single-category--type-one__image a {
@@ -2475,7 +2455,7 @@ select {
 }
 
 .single-category--type-one__content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 36px;
@@ -2546,7 +2526,7 @@ select {
 }
 
 .single-category--type-two__content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 24px;
@@ -2555,7 +2535,7 @@ select {
 }
 
 .single-category--type-two__content .count {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 16px;
@@ -2636,7 +2616,7 @@ select {
 }
 
 .single-banner__content--overlay p.banner-small-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 22px;
@@ -2645,7 +2625,7 @@ select {
 }
 
 .single-banner__content--overlay p.banner-small-text--end {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 22px;
@@ -2669,7 +2649,7 @@ select {
 }
 
 .single-banner__content--overlay p.banner-big-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 28px;
 	font-weight: 700;
 	line-height: 30px;
@@ -2756,7 +2736,7 @@ select {
 }
 
 .single-banner--scale__content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
 	font-weight: 700;
@@ -2766,7 +2746,7 @@ select {
 }
 
 .single-banner--scale__content .subtitle {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -2850,7 +2830,7 @@ select {
 }
 
 .single-two-column-banner__content .content-wrapper .content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 50px;
 	font-weight: 600;
 	line-height: 55px;
@@ -2859,7 +2839,7 @@ select {
 }
 
 .single-two-column-banner__content .content-wrapper .content .price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -2868,7 +2848,7 @@ select {
 }
 
 .single-two-column-banner__content .content-wrapper .content .description {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -2981,7 +2961,7 @@ select {
 }
 
 .cta-area--three .cta-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 35px;
 	font-weight: 600;
 	line-height: 38px;
@@ -2996,7 +2976,11 @@ select {
 }
 
 .cta-bg--one {
-	background-image: url('../img/backgrounds/cta-bg-1.jpg');
+	background-image: url('../images/compare_banner.png');
+}
+
+.cta-bg--two-sagar{
+	background-image: url('../images/video_banner.png');
 }
 
 .cta-bg--two {
@@ -3005,7 +2989,7 @@ select {
 
 .cta-content-wrapper {
 	padding: 60px 35px;
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 
 .cta-content {
@@ -3017,7 +3001,7 @@ select {
 }
 
 .cta-content--two .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 90px;
 	font-weight: 800;
 	line-height: 144px;
@@ -3032,7 +3016,7 @@ select {
 }
 
 .cta-content--two .subtitle {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 28px;
@@ -3044,13 +3028,13 @@ select {
 }
 
 .cta-content .title {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 36px;
+	font-family: 'Gilroy', sans-serif;
+	font-size: 50px;
 	font-weight: 700;
-	line-height: 43px;
+	line-height: 60px;
 	margin-top: -10px;
 	margin-bottom: 25px;
-	color: #000;
+	color: #fff;
 }
 
 .cta-content .title:after {
@@ -3065,12 +3049,12 @@ select {
 }
 
 .cta-content .subtitle {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
 	margin-bottom: 40px;
-	color: #666;
+	color: #e3e3e3;
 }
 
 /*=====  End of call to action  ======*/
@@ -3090,7 +3074,7 @@ select {
 }
 
 .deal-counter-wrapper__content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 39px;
@@ -3109,7 +3093,7 @@ select {
 }
 
 .deal-counter-wrapper__content .description {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -3134,7 +3118,7 @@ select {
 }
 
 .deal-counter-wrapper__content .deal-countdown .single-countdown__time {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 39px;
@@ -3144,7 +3128,7 @@ select {
 }
 
 .deal-counter-wrapper__content .deal-countdown .single-countdown__text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 16px;
@@ -3248,7 +3232,7 @@ select {
 }
 
 .breadcrumb-wrapper .page-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 70px;
 	font-weight: 700;
 	line-height: 77px;
@@ -3262,7 +3246,7 @@ select {
 }
 
 .breadcrumb-wrapper .breadcrumb-list li a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 22px;
@@ -3270,7 +3254,7 @@ select {
 }
 
 .breadcrumb-wrapper .breadcrumb-list li.active {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 22px;
@@ -3302,8 +3286,8 @@ select {
 .theme-slick-slider .slick-arrow {
 	position: absolute;
 	z-index: 3;
-	top: 50%;
-	visibility: hidden;
+	top: -54px;
+	visibility: visible !important;
 	width: 30px;
 	height: 60px;
 	-webkit-transition: .3s;
@@ -3311,29 +3295,30 @@ select {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	opacity: 0;
-	color: #fff;
+	opacity: 1;
+	color: #21305b;
 	border: none;
-	background-color: #111;
+	background-color: #fff;
 }
 
 .theme-slick-slider .slick-arrow i {
-	font-size: 20px;
+	font-size: 45px;
 	line-height: 60px;
 }
 
 .theme-slick-slider .slick-arrow.slick-next {
-	right: -50px;
+	right: 0px;
 }
 
 .theme-slick-slider .slick-arrow.slick-prev {
-	left: -50px;
+	right: 50px;
 }
 
 .theme-slick-slider .slick-dots {
 	line-height: 0;
 	margin-top: 45px;
 	text-align: center;
+	display: none !important;
 }
 
 .theme-slick-slider .slick-dots li {
@@ -3350,7 +3335,7 @@ select {
 	height: 5px;
 	-webkit-transition: .3s;
 	transition: .3s;
-	opacity: .4;
+	opacity: 1;
 	color: transparent;
 	border: none;
 	outline: none;
@@ -3367,20 +3352,15 @@ select {
 
 .theme-slick-slider:hover .slick-arrow {
 	visibility: visible;
-	opacity: .6;
+	opacity: 1;
 }
 
-.theme-slick-slider:hover .slick-arrow:hover {
-	opacity: .8;
+.theme-slick-slider:hover .slick-arrow i:hover {
+	opacity: 1;
+
 }
 
-.theme-slick-slider:hover .slick-arrow.slick-next {
-	right: -40px;
-}
 
-.theme-slick-slider:hover .slick-arrow.slick-prev {
-	left: -40px;
-}
 
 /* brand logo slider */
 
@@ -3453,7 +3433,7 @@ select {
 }
 
 .single-slider-blog-post__content .post-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 33px;
@@ -3469,7 +3449,7 @@ select {
 }
 
 .single-slider-blog-post__content .post-meta {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
@@ -3491,7 +3471,7 @@ select {
 }
 
 .single-slider-blog-post__content .post-excerpt {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -3508,14 +3488,8 @@ select {
 
 /* single row product slider with text */
 
-.product-slider-text-wrapper {
-	margin: 0 -115px;
-	padding: 65px 105px;
-	border: 10px solid #f8f8f8;
-}
-
 .product-slider-text-wrapper__text .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 39px;
@@ -3524,22 +3498,22 @@ select {
 	color: #202020;
 }
 
-.product-slider-text-wrapper__text .title:after {
+/* .product-slider-text-wrapper__text .title:after {
 	display: block;
 	width: 100px;
 	height: 2px;
 	margin-top: 15px;
 	content: '';
 	background-color: #ccc;
-}
+} */
 
 .product-slider-text-wrapper__text .description {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 25px;
-	margin-bottom: 35px;
-	color: #666;
+	font-family: 'Gilroy', sans-serif;
+	font-size: 15px;
+    font-weight: bolder;
+    line-height: 28px;
+    margin-bottom: 35px;
+    color: #4f4f4f;
 }
 
 /*=====  End of slider  ======*/
@@ -3565,7 +3539,7 @@ select {
 /* common */
 
 .price .main-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
@@ -3573,7 +3547,7 @@ select {
 }
 
 .price .main-price.discounted {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
@@ -3583,7 +3557,7 @@ select {
 }
 
 .price .discounted-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
@@ -3602,7 +3576,7 @@ select {
 /* single widget product */
 
 .single-product-widget-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 26px;
@@ -3650,7 +3624,7 @@ select {
 }
 
 .single-widget-product__content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
@@ -3692,11 +3666,12 @@ select {
 }
 
 .product-badge-wrapper span.onsale {
-	background-color: #d92523;
+	background-color: #e9efff;
 }
 
 .product-badge-wrapper span.hot {
-	background-color: #ffc926;
+	/* background-color: #ffc926; */
+	background-color: #cd2a38;
 }
 
 .single-grid-product__image {
@@ -3798,7 +3773,7 @@ select {
 }
 
 .single-grid-product__content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 24px;
@@ -3820,7 +3795,7 @@ select {
 }
 
 .single-grid-product__content .price .main-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -3828,7 +3803,7 @@ select {
 }
 
 .single-grid-product__content .price .main-price.discounted {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 22px;
@@ -3836,7 +3811,7 @@ select {
 }
 
 .single-grid-product__content .price .discounted-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -4018,7 +3993,7 @@ select {
 }
 
 .single-grid-product--overlay .single-grid-product__image .product-info .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 24px;
@@ -4031,7 +4006,7 @@ select {
 }
 
 .single-grid-product--overlay .single-grid-product__image .product-info .price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -4176,7 +4151,7 @@ select {
 }
 
 .single-list-product__content .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 27px;
@@ -4198,7 +4173,7 @@ select {
 }
 
 .single-list-product__content .price .main-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -4206,7 +4181,7 @@ select {
 }
 
 .single-list-product__content .price .main-price.discounted {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 22px;
@@ -4214,7 +4189,7 @@ select {
 }
 
 .single-list-product__content .price .discounted-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -4222,7 +4197,7 @@ select {
 }
 
 .single-list-product__content .product-short-desc {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -4432,7 +4407,7 @@ select {
 }
 
 .product-double-row-tab-wrapper .tab-product-navigation .nav-tabs .nav-item {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 24px;
@@ -4803,7 +4778,7 @@ Main components
 }
 
 .quickview-item-info .item-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 28px;
@@ -4811,7 +4786,7 @@ Main components
 }
 
 .quickview-item-info .price .main-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 48px;
@@ -4819,7 +4794,7 @@ Main components
 }
 
 .quickview-item-info .price .main-price.discounted {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 48px;
@@ -4828,7 +4803,7 @@ Main components
 }
 
 .quickview-item-info .price .discounted-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 48px;
@@ -4836,7 +4811,7 @@ Main components
 }
 
 .quickview-item-info .description {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -4893,7 +4868,7 @@ Main components
 }
 
 .quick-view-other-info .other-info-links a {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
@@ -4919,7 +4894,7 @@ Main components
 }
 
 .quick-view-other-info table tr td.quickview-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 24px;
@@ -4929,7 +4904,7 @@ Main components
 }
 
 .quick-view-other-info table tr td.quickview-value {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 28px;
@@ -4990,6 +4965,7 @@ Main components
 
 .single-testimonial {
 	text-align: center;
+	margin-top: 90px;
 }
 
 .single-testimonial__image {
@@ -5001,11 +4977,10 @@ Main components
 }
 
 .single-testimonial__content .testimonial-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
-	font-style: italic;
-	line-height: 28px;
+	line-height: 38px;
 	width: 1000px;
 	max-width: 100%;
 	margin: 0 auto;
@@ -5014,7 +4989,7 @@ Main components
 }
 
 .single-testimonial__content .testimonial-author {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 28px;
@@ -5038,14 +5013,13 @@ Main components
 /* testimonial content */
 
 .testimonial-content-wrapper {
-	padding: 80px 0;
+	padding: 0px 0 80px;
 	background-color: #fff;
 }
 
 .testimonial-content-wrapper .testimonial-image {
 	position: relative;
-	padding: 0 80px;
-	border-right: 2px solid #eee;
+	margin-right: 20px;
 }
 
 .testimonial-content-wrapper .testimonial-image .icon {
@@ -5068,6 +5042,8 @@ Main components
 
 .testimonial-content-wrapper .testimonial-content {
 	padding: 0 80px;
+	height: 565px;
+	margin-left: 10px;
 }
 
 /*=====  End of testimonial  ======*/
@@ -5122,7 +5098,7 @@ Main components
 }
 
 .faq-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 35px;
 	font-weight: 700;
 	line-height: 38px;
@@ -5165,7 +5141,7 @@ Main components
 }
 
 .single-faq .card-header h5 button {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 18px;
@@ -5200,7 +5176,7 @@ Main components
 }
 
 .single-faq .card-body p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -5262,7 +5238,7 @@ Main components
 }
 
 .footer-newsletter-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 33px;
@@ -5414,7 +5390,7 @@ Main components
 }
 
 .progress-bar-element__content .progress .progress-bar {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 18px;
@@ -5444,7 +5420,7 @@ Main components
 /* about us brief */
 
 .about-us-brief-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 46px;
@@ -5462,7 +5438,7 @@ Main components
 }
 
 .about-us-brief-desc {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -5484,7 +5460,7 @@ Main components
 }
 
 .about-us-process-wrapper .single-process .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 32px;
@@ -5498,7 +5474,7 @@ Main components
 }
 
 .about-us-process-wrapper .single-process .description {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -5519,7 +5495,7 @@ Main components
 }
 
 .single-team-member__content .name {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 25px;
@@ -5528,7 +5504,7 @@ Main components
 }
 
 .single-team-member__content .designation {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 22px;
@@ -5537,7 +5513,7 @@ Main components
 }
 
 .single-team-member__content .short-desc {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 24px;
@@ -5578,7 +5554,7 @@ Main components
 }
 
 .single-service-text .title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 25px;
 	font-weight: 600;
 	line-height: 27px;
@@ -5587,7 +5563,7 @@ Main components
 }
 
 .single-service-text .title span {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 80px;
 	font-weight: 700;
 	line-height: 88px;
@@ -5596,7 +5572,7 @@ Main components
 }
 
 .single-service-text .short-desc {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -5631,7 +5607,7 @@ Main components
 }
 
 .single-icon-service__title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 22px;
@@ -5640,7 +5616,7 @@ Main components
 }
 
 .single-icon-service__short-desc {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 24px;
@@ -5673,7 +5649,7 @@ Main components
 }
 
 .single-contact-icon-text__title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 22px;
@@ -5682,7 +5658,7 @@ Main components
 }
 
 .single-contact-icon-text__value {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 24px;
@@ -5746,7 +5722,7 @@ Main components
 }
 
 .sidebar-price input {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1;
@@ -5923,7 +5899,7 @@ Main components
 }
 
 .description-tab-navigation .nav-tabs .nav-link {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 22px;
@@ -6034,7 +6010,7 @@ Main components
 }
 
 .single-product-description-tab-content .tab-content .tab-pane .description-content--extra__top .single-block-text p.medium-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 15px;
@@ -6043,7 +6019,7 @@ Main components
 }
 
 .single-product-description-tab-content .tab-content .tab-pane .description-content--extra__top .single-block-text p.big-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 44px;
@@ -6051,7 +6027,7 @@ Main components
 }
 
 .single-product-description-tab-content .tab-content .tab-pane .description-content--extra__top .single-block-text p.desc-text {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -6107,7 +6083,7 @@ Main components
 }
 
 .single-product-description-tab-content .tab-content .tab-pane .review-content-wrapper .review-comment-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -6205,7 +6181,7 @@ Main components
 /* product details description */
 
 .product-details-description-wrapper .item-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 28px;
@@ -6213,7 +6189,7 @@ Main components
 }
 
 .product-details-description-wrapper .price .main-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 48px;
@@ -6221,7 +6197,7 @@ Main components
 }
 
 .product-details-description-wrapper .price .main-price.discounted {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 48px;
@@ -6230,7 +6206,7 @@ Main components
 }
 
 .product-details-description-wrapper .price .discounted-price {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 48px;
@@ -6238,7 +6214,7 @@ Main components
 }
 
 .product-details-description-wrapper .product-details-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 28px;
@@ -6334,7 +6310,7 @@ Main components
 }
 
 .product-details-description-wrapper .description {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -6559,7 +6535,7 @@ Main components
 }
 
 .single-blog-post__content .post-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 33px;
@@ -6575,7 +6551,7 @@ Main components
 }
 
 .single-blog-post__content .post-meta {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
@@ -6597,7 +6573,7 @@ Main components
 }
 
 .single-blog-post__content .post-excerpt {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -6610,7 +6586,7 @@ Main components
 }
 
 .single-blog-post--related .post-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 23px;
@@ -6628,7 +6604,7 @@ Main components
 }
 
 .blog-single-post-details-wrapper .post-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 45px;
@@ -6637,7 +6613,7 @@ Main components
 }
 
 .blog-single-post-details-wrapper .post-meta {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
@@ -6689,7 +6665,7 @@ Main components
 }
 
 .blog-single-post-details-wrapper .post-text-content p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -6697,7 +6673,7 @@ Main components
 }
 
 .blog-single-post-details-wrapper .post-share-section span {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 22px;
@@ -6733,7 +6709,7 @@ Main components
 }
 
 .blog-details-section-title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 24px;
@@ -6994,7 +6970,7 @@ Main components
 }
 
 .order-track-form label {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 28px;
@@ -7140,7 +7116,7 @@ Main components
 }
 
 .cart-calculation-area__title {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 25px;
 	font-weight: 600;
 	line-height: 27px;
@@ -7203,7 +7179,7 @@ Main components
 }
 
 .stock-stat-message {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 24px;
@@ -7603,8 +7579,8 @@ Main components
 }
 
 @font-face {
-	font-family: Gilroy;
-	font-weight: bold;
+	font-family: Gilroy-ExtraBold;
+	/* font-weight: 400; */
 	src: url("../myfonts/Gilroy-ExtraBold.otf") format("opentype");
 }
 
@@ -7815,7 +7791,7 @@ Main components
 	}
 
 	.footer-newsletter-text {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Gilroy', sans-serif;
 		font-size: 25px;
 		font-weight: 700;
 		line-height: 30px;
@@ -8319,7 +8295,7 @@ only screen and (max-width: 767px) {
 	}
 
 	.footer-newsletter-text {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Gilroy', sans-serif;
 		font-size: 25px;
 		font-weight: 700;
 		line-height: 30px;
@@ -8459,7 +8435,7 @@ only screen and (max-width: 767px) {
 		flex-basis: 30%;
 	}
 
-	.header-navigation-wrapper nav>ul>li:last-child .submenu--column-3 {
+	/* .header-navigation-wrapper nav>ul>li:last-child .submenu--column-3 {
 		-webkit-transform: translate(-500px, 20px);
 		-ms-transform: translate(-500px, 20px);
 		transform: translate(-500px, 20px);
@@ -8472,16 +8448,16 @@ only screen and (max-width: 767px) {
 	}
 
 	.header-navigation-wrapper nav>ul>li:hover .submenu--column-3 {
-		-webkit-transform: translate(-250px, 0);
-		-ms-transform: translate(-250px, 0);
-		transform: translate(-250px, 0);
+		-webkit-transform: translate(-375px, 0);
+		-ms-transform: translate(-375px, 0);
+		transform: translate(-375px, 0);
 	}
 
 	.submenu--column-3 {
-		-webkit-transform: translate(-250px, 20px);
-		-ms-transform: translate(-250px, 20px);
-		transform: translate(-250px, 20px);
-	}
+		-webkit-transform: translate(-300px, 20px);
+		-ms-transform: translate(-300px, 20px);
+		transform: translate(-300px, 20px);
+	} */
 
 	.footer-navigation-area {
 		padding-bottom: 100px;
@@ -8703,7 +8679,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 	}
 
 	.section-title {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Gilroy', sans-serif;
 		font-size: 28px;
 		font-weight: 700;
 		line-height: 55px;
@@ -8889,7 +8865,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 	}
 
 	.footer-newsletter-text {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Gilroy', sans-serif;
 		font-size: 25px;
 		font-weight: 700;
 		line-height: 30px;
@@ -9220,7 +9196,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 	}
 
 	.blog-single-post-details-wrapper .post-title {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Gilroy', sans-serif;
 		font-size: 25px;
 		font-weight: 600;
 		line-height: 35px;
@@ -9329,7 +9305,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 	}
 
 	.section-title {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Gilroy', sans-serif;
 		font-size: 25px;
 		font-weight: 700;
 		line-height: 50px;
@@ -9593,5 +9569,220 @@ section.features-area .features_box .box img {
 
 section.features-area .features_box .box p {
 	color: #fff;
+	font-size: 15px;
+}
+
+
+.padding-top {
+	padding-top: 50px;
+}
+
+.floter {
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	background: #0c863e;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bolder;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+.warranty_label {
+	background: #e9efff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 800;
+	color: #39466d;
+}
+
+.bold-font {
+	font-family: 'Gilroy-ExtraBold', sans-serif !important;
+}
+
+.dark_color {
+	color: #22305c !important;
+}
+
+.my_heading {
+	width: 35% !important;
+	padding: 80px 0 0px !important;
+}
+
+.cta-btn {
+	background: #fff;
+	padding: 10px 40px;
+	color: #39466d;
+	font-weight: 700;
+	border-radius: 5px;
+}
+
+.buy_now {
+	background: #22305d;
+	padding: 20px 0;
+}
+
+.buy_now .content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.buy_now .content h3 {
+	color: #e9effe;
 	font-size: 30px;
+}
+
+.buy_now .content a {
+	text-decoration: underline;
+	color: #e4eaf9;
+}
+
+.testi_bg {
+	background: #ebeffb !important;
+}
+
+.testimonial-image .review {
+	background: #fff;
+	padding: 10px 55px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 26px;
+	left: 43px;
+	font-size: 14px;
+}
+
+.megamenu_btn {
+	color: #fff;
+	background: #22305d;
+	padding: 10px 55px;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 20px;
+	font-weight: bolder;
+}
+
+.megamenu_li {
+	display: flex;
+	gap: 10px;
+}
+
+.megamenu_li span {
+	font-size: 8px;
+	background: #e9eefe;
+	color: #39466d;
+	font-weight: bolder;
+	line-height: 10px;
+	height: 14px;
+	padding: 2px 5px;
+	border-radius: 5px;
+}
+
+.image_ul {
+	position: relative;
+}
+
+.img_populor {
+	position: absolute;
+	top: 65px;
+	left: 9px;
+	font-size: 10px;
+	left: 18px;
+	font-size: 8px;
+	background: #e9eefe;
+	color: #39466d;
+	font-weight: bolder;
+	line-height: 10px;
+	height: 14px;
+	padding: 2px 5px;
+	border-radius: 5px;
+}
+
+.mobile_logo {
+	width: 120px;
+}
+
+.bg_light_blue{
+	background: #ebeffb;
+}
+
+@media (max-width: 991px) {
+
+	.home-banner {
+		height: 35vh;
+	}
+
+	.home-banner img {
+		height: 35vh;
+	}
+
+	.home-banner .banner_content {
+		width: 90%;
+	}
+
+	.home-banner .banner_content h4 {
+		font-size: 30px;
+	}
+
+	section.features-area .features_box {
+		gap: 20px;
+	}
+
+	.my_heading {
+		width: 80% !important;
+		padding: 0px 0 0px !important;
+	}
+
+	.section-title-area {
+		padding-top: 50px;
+	}
+
+	.testimonial-image .review {
+		bottom: 65px;
+		left: 71px;
+	}
+
+	.single-testimonial__content .testimonial-text{
+		font-size: 26px;
+	}
+	.header-icon__list li>a>.item-count{
+		top: 12px;
+	}
+
+	.megamenu_li{
+		align-items: center;
+	}
+
+	.single-testimonial{
+		margin-top: 0 !important;
+	}
+
+	.testimonial-text{
+		font-size: 16px !important;
+	}
+}
+
+.product-slider-text-wrapper {
+	margin: 0;
+	padding:  65px 24px 65px 0 !important;
+}
+
+.clients{
+	padding: 50px 0;
+}
+
+.clients .clients_head{
+	font-size: 30px;
+}
+
+.para_text{
+	font-weight: bolder;
+}
+
+.margin-t{
+	margin-top: 10px;
+	font-weight: bolder;
 }

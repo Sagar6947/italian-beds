@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 
-$config['base_url'] = 'http://localhost/italian-beds/';
+$config['base_url'] = 'https://webangeltech.com/italian-beds/';
 
 
 

@@ -8,7 +8,7 @@
             <p><b>Big Savings -</b> Get 15% off and all mattresses. Save up to $463* on a matteress. Use code <b>STAYCOMFY</B></p>
          </div>
          <div class="col-lg-2">
-         <p><i class="fa fa-phone"></i> &nbsp; Contact Us</p>
+            <p><i class="fa fa-phone"></i> &nbsp; Contact Us</p>
          </div>
       </div>
    </div>
@@ -21,7 +21,7 @@
 <div class="header-area header-area--one header-sticky">
 
 
-   
+
 
    <!--=======  navigation area  =======-->
 
@@ -41,38 +41,30 @@
                      <ul>
                         <li class="">
                            <a href="<?= base_url() ?>">Home</a>
-                           
+
                         </li>
                         <li class="has-children">
                            <a href="javascript:void(0)">Mattress</a>
                            <ul class="submenu submenu--column-3">
+
                               <li>
                                  <ul>
-                                    <li class="megamenu-title">SHOP/PRODUCTS</li>
-                                    <li><a href="element-product-category.html">Product Categories</a></li>
-                                    <li><a href="element-product-carousel.html">Products Carousel</a></li>
-                                    <li><a href="element-product-widget.html">Product Widget</a></li>
-                                    <li><a href="element-recent-product.html">Recent Products</a></li>
-                                    <li><a href="element-sale-product.html">Sale Products</a></li>
-                                    <li><a href="element-featured-product.html">Featured Product</a></li>
-                                    <li><a href="element-top-rated-product.html">Top Rated Products</a></li>
+                                    <li class="megamenu-title bold-font dark_color">Mattresses</li>
+                                    <li class="megamenu_li"><a href="" class="dark_color">Celebrity</a><span>MOST POPULAR</span></li>
+                                    <li class="megamenu_li"><a href="" class="dark_color">Wave</a><span>MOST POPULAR</span></li>
+                                    <li class="megamenu_li"><a href="" class="dark_color">Power</a><span>MOST POPULAR</span></li>
+                                    <li class="megamenu_li"><a href="" class="dark_color">Jewel</a><span>MOST POPULAR</span></li>
+                                    <li class="megamenu_li"><a href="" class="dark_color">Natureal Soi</a><span>MOST POPULAR</span></li>
+                                    <li class="megamenu_li"><a href="" class="dark_color">Electra</a><span>MOST POPULAR</span></li>
                                  </ul>
-                              </li>
-                              <li>
-                                 <ul>
-                                    <li class="megamenu-title">THEMING</li>
-                                    <li><a href="element-blog-post.html">Blog Posts</a></li>
-                                    <li><a href="element-mailchimp-form.html">MailChimp Form</a></li>
-                                    <li><a href="element-accordion-toggles.html">Accordion/Toggles</a></li>
-                                    <li><a href="element-progress-bar.html">Progress Bars</a></li>
-                                    <li><a href="element-countdown-timer.html">Countdown Timer</a></li>
-                                    <li><a href="element-button.html">Buttons</a></li>
-                                    <li><a href="element-testimonial.html">Testimonials</a></li>
-                                    <li><a href="element-google-map.html">Google Maps</a></li>
-                                 </ul>
+                                 <a href="" class="megamenu_btn"> See all mattress</a>
                               </li>
                               <li class="megamenu-image">
-                                 <img src="<?= base_url() ?>assets/img/menu-image/sofa.png" class="img-fluid" alt="">
+                                 <ul class="image_ul">
+                                    <li class="megamenu-title bold-font dark_color">Celebrity</li>
+                                    <img src="<?= base_url() ?>assets/images/elegance.png" class="img-fluid" alt="">
+                                    <span class="img_populor">MOST POPULAR</span>
+                                 </ul>
                               </li>
                            </ul>
                         </li>
@@ -82,7 +74,7 @@
                         <li class="">
                            <a href=""><b>Sale</b></a>
                         </li>
-                      
+
                      </ul>
                   </nav>
                </div>
@@ -190,8 +182,8 @@
          <div class="row align-items-center">
             <div class="col-6 col-md-6">
                <div class="header-logo">
-                  <a href="index.html">
-                     <img src="<?= base_url() ?>assets/img/logo.png" class="img-fluid" alt="">
+                  <a href="<?= base_url() ?>" class="mobile_logo">
+                     <img src="<?= base_url() ?>assets/images/logo.png" class="img-fluid" alt="">
                   </a>
                </div>
             </div>
