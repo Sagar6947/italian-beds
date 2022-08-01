@@ -166,6 +166,124 @@
 </div>
 
 
+<div class="category-area section-space--small padding-top gray_bg section_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <!--=======  ctaegory grid wrapper  =======-->
+
+                <div class="category-grid-wrapper">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!--=======  single-category  =======-->
+                            <div class="image_box">
+                                <img src="<?= base_url() ?>assets/images/collections/collection_girl1.png" width="100%" alt="">
+                            </div>
+
+
+                            <!--=======  End of single-category  =======-->
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <!--=======  single-category  =======-->
+
+                            <div class="collection-content ">
+                                <h2 class="bold-font">Lorem Ipsum is simply
+                                    dummy text of the
+                                </h2>
+
+                                <p class="font-r">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry s
+                                    standard dummy text</p>
+                            </div>
+
+                            <!--=======  End of single-category  =======-->
+                        </div>
+                    </div>
+                </div>
+
+                <!--=======  End of ctaegory grid wrapper  =======-->
+            </div>
+        </div>
+        <div class="row mt-50 margin-t">
+            <div class="col-lg-12">
+
+                <!--=======  ctaegory grid wrapper  =======-->
+
+                <div class="category-grid-wrapper">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center">
+                            <!--=======  single-category  =======-->
+
+                            <div class="collection-content ">
+                                <h2 class="bold-font">Lorem Ipsum is simply
+                                    dummy text of the
+                                </h2>
+
+                                <p class="font-r">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry s
+                                    standard dummy text</p>
+                            </div>
+
+                            <!--=======  End of single-category  =======-->
+                        </div>
+
+                        <div class="col-md-6">
+                            <!--=======  single-category  =======-->
+                            <div class="image_box">
+                                <img src="<?= base_url() ?>assets/images/collections/collection_girl1.png" width="100%" alt="">
+                            </div>
+
+
+                            <!--=======  End of single-category  =======-->
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--=======  End of ctaegory grid wrapper  =======-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="cta-area blue-bg collection-container margin-bottom">
+    <div class="container">
+        <div class="title text-center" style="margin-bottom: 30px;">
+            <h2 class="text-white">Let our sleep experts help you discover better sleep.</h2>
+        </div>
+        <div class="row text-center gap-36">
+            <div class="col-lg-4 col-md-10 cta_box">
+                <img src="<?= base_url() ?>assets/images/collections/msg.png" alt="">
+                <h6>Call Us</h6>
+                <p>Helping you sleep better is our business… let s talk</p>
+                <a href="">+61 8 9242 4333</a>
+            </div>
+            <div class="col-lg-4 col-md-10 cta_box">
+                <img src="<?= base_url() ?>assets/images/collections/call.png" alt="">
+                <h6>Call Us</h6>
+                <p>Our Sleep Experts are here to help
+
+                    you build your perfect bed.</p>
+                <a href="">Chat Now</a>
+            </div>
+            <div class="col-lg-4 col-md-10 cta_box">
+                <img src="<?= base_url() ?>assets/images/collections/location.png" alt="">
+                <h6>Call Us</h6>
+                <p>Want to try our beds in person? Come
+
+                    visit a Purple showroom near you.
+                </p>
+                <a href="">Store Location</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <div class="cta-area cta-bg cta-bg--one collection-container">
     <div class="container">
         <div class="row">

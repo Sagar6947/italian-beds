@@ -129,7 +129,7 @@
             </div>
             <nav class="offcanvas-naviagtion">
                 <ul>
-                    <li class="menu-item-has-children"><a href="#">Home</a>
+                    <li class="menu-item-has-children"><a href="<?= base_url() ?>">Home</a>
                     </li>
                     <li class="menu-item-has-children"><a href="#">Mattresses</a>
                         <ul class="sub-menu">
