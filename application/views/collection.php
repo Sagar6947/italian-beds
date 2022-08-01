@@ -6,10 +6,9 @@
 <!--====================  hero slider area ====================-->
 
 <section class="home-banner">
-    <img src="<?= base_url() ?>assets/images/home-banner.png" alt="">
+    <img src="<?= base_url() ?>assets/images/collections/collection.png" alt="">
     <div class="banner_content">
-        <h4>Spring for the best comfort and sleep</h4>
-        <a href="#" class="bold-font">Shop now</a>
+        <h4 class="semi-bold">Our Collections</h4>
     </div>
 </section>
 
@@ -32,10 +31,16 @@
 
 <div class="category-area section-space--small padding-top">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title-area text-center">
-                    <h2 class="section-title bold-font my_heading">The Best Sleep Duo</h2>
+        <div class="row collection">
+            <div class="col-lg-6">
+                <div class="">
+                    <p class="semi-bold text_black">5 Collection</p>
+                    <h1 class="section-title text_black bold-font">Mattresses</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class=" text-center">
+                    <p class="text-justify collection_para font-r">We desire perfection, which means we stribe to be even better than the best. We enter places where no one has ever stepped before. This desire of FERRETI leads to a constant pushing of the</p>
                 </div>
             </div>
         </div>
@@ -47,38 +52,110 @@
 
                 <div class="category-grid-wrapper">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <!--=======  single-category  =======-->
 
-                            <div class="single-category single-category--type-one text-center">
-                                <div class="single-category--type-one__image">
-                                    <a href=""><img src="<?= base_url() ?>assets/images/mattress.jpg" class="img-fluid" alt=""></a>
-                                    <span class="floter">UP TO $600 OFF</span>
+                            <div class="single-grid-product collections">
+                                <div class="single-grid-product__image">
+
+                                    <a href="" class="image-wrap">
+                                        <img src="<?= base_url() ?>assets/images/collections/celebrity.png" class="img-fluid" alt="">
+                                    </a>
                                 </div>
-                                <div class="single-category--type-one__content d-flex align-items-center justify-content-between">
-                                    <h2 class="title mb-0 dark_color">Shop mattress</h2>
-                                    <a href="" class="warranty_label"> <img src="<?= base_url() ?>assets/images/dark-shield.png" alt=""> 10-Year Warranty </a>
+                                <div class="single-grid-product__content">
+                                    <h3 class="title dark_color"><a href="" class="dark_color bold-font mar-right">Celebrity</a> <i class="fa fa-arrow-right"></i> </h3>
+
+                                    <p>For maximum quality, refined beauty
+                                        and absolute well-being in a single
+                                        solution.</p>
                                 </div>
                             </div>
 
                             <!--=======  End of single-category  =======-->
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <!--=======  single-category  =======-->
 
-                            <div class="single-category single-category--type-one text-center">
-                                <div class="single-category--type-one__image">
-                                    <a href=""><img src="<?= base_url() ?>assets/images/pilow.jpg" class="img-fluid" alt=""></a>
-                                    <span class="floter">UP TO $600 OFF</span>
+                            <div class="single-grid-product">
+                                <div class="single-grid-product__image">
+
+                                    <a href="" class="image-wrap">
+                                        <img src="<?= base_url() ?>assets/images/collections/wave.png" class="img-fluid" alt="">
+                                    </a>
                                 </div>
-                                <div class="single-category--type-one__content d-flex align-items-center justify-content-between">
-                                    <h2 class="title mb-0 bold-fonts dark_color">Shop Pillows</h2>
-                                    <a href="" class="warranty_label"> <img src="<?= base_url() ?>assets/images/dark-shield.png" alt=""> 10-Year Warranty </a>
+                                <div class="single-grid-product__content">
+                                    <h3 class="title dark_color"><a href="" class="dark_color bold-font mar-right">Wave</a> <i class="fa fa-arrow-right"></i> </h3>
+
+                                    <p>For a sensational experience, letting
+                                        yourself be lulled by the waves of the
+                                        sea.
+                                    </p>
                                 </div>
                             </div>
 
                             <!--=======  End of single-category  =======-->
                         </div>
+                        <div class="col-md-4">
+                            <!--=======  single-category  =======-->
+
+                            <div class="single-grid-product">
+                                <div class="single-grid-product__image">
+
+                                    <a href="" class="image-wrap">
+                                        <img src="<?= base_url() ?>assets/images/collections/power.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="single-grid-product__content">
+                                    <h3 class="title dark_color"><a href="" class="dark_color bold-font mar-right">Power</a> <i class="fa fa-arrow-right"></i> </h3>
+
+                                    <p>For a regenerating experience that
+                                        renews</p>
+                                </div>
+                            </div>
+
+                            <!--=======  End of single-category  =======-->
+                        </div>
+                        <div class="col-md-4">
+                            <!--=======  single-category  =======-->
+
+                            <div class="single-grid-product">
+                                <div class="single-grid-product__image">
+
+                                    <a href="" class="image-wrap">
+                                        <img src="<?= base_url() ?>assets/images/collections/jewel.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="single-grid-product__content">
+                                    <h3 class="title dark_color"><a href="" class="dark_color bold-font mar-right">Jewel</a> <i class="fa fa-arrow-right"></i> </h3>
+
+                                    <p>For a regenerating experience that
+                                        renews</p>
+                                </div>
+                            </div>
+
+                            <!--=======  End of single-category  =======-->
+                        </div>
+                        <div class="col-md-4">
+                            <!--=======  single-category  =======-->
+
+                            <div class="single-grid-product">
+                                <div class="single-grid-product__image">
+
+                                    <a href="" class="image-wrap">
+                                        <img src="<?= base_url() ?>assets/images/collections/natural-soi.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="single-grid-product__content">
+                                    <h3 class="title dark_color"><a href="" class="dark_color bold-font mar-right">Natural Soi</a> <i class="fa fa-arrow-right"></i> </h3>
+
+                                    <p>For a regenerating experience that
+                                        renews</p>
+                                </div>
+                            </div>
+
+                            <!--=======  End of single-category  =======-->
+                        </div>
+
                     </div>
                 </div>
 
@@ -89,235 +166,7 @@
 </div>
 
 
-
-<div class="page-content-wrapper">
-    <!--=======  product carousel area  =======-->
-
-    <div class="section-title-area text-center">
-        <h2 class="section-title bold-font my_heading">Experience great sleep and holistic wellness</h2>
-    </div>
-
-    <div class="product-carousel-area section-space">
-        <!--====================  product slider area ====================-->
-
-        <div class="product-slider-area">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!--=======  product slider wrapper  =======-->
-
-                        <div class="product-slider-wrapper theme-slick-slider" data-slick-setting='{
-                        "slidesToShow": 4,
-                        "slidesToScroll": 4,
-                        "arrows": true,
-                        "dots": true,
-                        "autoplay": false,
-                        "speed": 500,
-                        "prevArrow": {"buttonClass": "slick-prev", "iconClass": "fa fa-angle-left" },
-                        "nextArrow": {"buttonClass": "slick-next", "iconClass": "fa fa-angle-right" }
-                    }' data-slick-responsive='[
-                        {"breakpoint":1501, "settings": {"slidesToShow": 4, "slidesToScroll": 4, "arrows": false} },
-                        {"breakpoint":1199, "settings": {"slidesToShow": 3, "slidesToScroll": 3, "arrows": false} },
-                        {"breakpoint":991, "settings": {"slidesToShow": 2,"slidesToScroll": 2, "arrows": true, "dots": false} },
-                        {"breakpoint":767, "settings": {"slidesToShow": 2,"slidesToScroll": 2,  "arrows": true, "dots": false} },
-                        {"breakpoint":575, "settings": {"slidesToShow": 2, "slidesToScroll": 2,"arrows": false, "dots": true} },
-                        {"breakpoint":479, "settings": {"slidesToShow": 1,"slidesToScroll": 1, "arrows": true, "dots": false} }
-                    ]'>
-
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="onsale dark_color bold-font">BEST SELLER</span>
-                                        </div>
-                                        <a href="" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/elegance.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Elegance</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Mattresses for supreme comfort and elegant sleep await</p>
-                                    </div>
-                                </div>
-                                <!--=======  End of single short view product  =======-->
-                            </div>
-
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-                                <div class="single-grid-product">
-
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="hot" style="font-weight: bolder;">Sale</span>
-                                        </div>
-                                        <a href="#" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/glory.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Glory</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Glorious mattress designed for quality sleep and wellness</p>
-                                    </div>
-                                </div>
-
-                                <!--=======  End of single short view product  =======-->
-                            </div>
-
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="onsale dark_color bold-font">BEST SELLER</span>
-                                        </div>
-                                        <a href="#" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/ninfa.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Ninfa</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Lush mattresses that lull you to sleep</p>
-                                    </div>
-                                </div>
-
-                                <!--=======  End of single short view product  =======-->
-                            </div>
-
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="hot" style="font-weight: bolder;">Sale</span>
-                                        </div>
-                                        <a href="#" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/posedian.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Posedian</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Enter sleep heaven an almighty mattresses</p>
-                                    </div>
-                                </div>
-
-                                <!--=======  End of single short view product  =======-->
-                            </div>
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="onsale dark_color bold-font">BEST SELLER</span>
-                                        </div>
-                                        <a href="" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/elegance.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Elegance</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Mattresses for supreme comfort and elegant sleep await</p>
-                                    </div>
-                                </div>
-                                <!--=======  End of single short view product  =======-->
-                            </div>
-
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-                                <div class="single-grid-product">
-
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="hot" style="font-weight: bolder;">Sale</span>
-                                        </div>
-                                        <a href="#" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/glory.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Glory</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Glorious mattress designed for quality sleep and wellness</p>
-                                    </div>
-                                </div>
-
-                                <!--=======  End of single short view product  =======-->
-                            </div>
-
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="onsale dark_color bold-font">BEST SELLER</span>
-                                        </div>
-                                        <a href="#" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/ninfa.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Ninfa</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Lush mattresses that lull you to sleep</p>
-                                    </div>
-                                </div>
-                                <!--=======  End of single short view product  =======-->
-                            </div>
-                            <div class="col">
-                                <!--=======  single short view product  =======-->
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
-                                        <div class="product-badge-wrapper">
-                                            <span class="hot" style="font-weight: bolder;">Sale</span>
-                                        </div>
-                                        <a href="#" class="image-wrap">
-                                            <img src="<?= base_url() ?>assets/images/posedian.png" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="single-grid-product__content">
-                                        <h3 class="title dark_color"><a href="" class="dark_color bold-font">Posedian</a></h3>
-                                        <a href="#" class="favorite-icon dark_color bold-font">
-                                            $1500
-                                        </a>
-                                        <p>Enter sleep heaven an almighty mattresses</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--=======  End of product carousel area  =======-->
-</div>
-<!--====================  End of featured brand  ====================-->
-<!--====================  call to action area ====================-->
-
-<div class="cta-area cta-bg cta-bg--one">
+<div class="cta-area cta-bg cta-bg--one collection-container">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-10">
@@ -327,7 +176,7 @@
                     <div class="cta-content">
                         <h3 class="title">Find out which mattress is best</br> for you!</h3>
                         <p class="subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
-                        <a href="" class="theme-button cta-btn bold-font">Compare Now</a>
+                        <a href="" class="theme-button cta-btn semi-bold">Compare Now</a>
                     </div>
                 </div>
 
@@ -337,24 +186,24 @@
     </div>
 </div>
 
-<!--====================  End of call to action area  ====================-->
 
-<section class="buy_now">
+<section class="buy_now collection-container">
     <div class="content">
-        <h3 class="bold-font">Buy Now Pay Later</h3>
+        <h3 class="semi-bold">Buy Now Pay Later</h3>
         <a href="">More Details</a>
     </div>
 </section>
 
+
 <!-- ============Testimonial============ -->
 
-<div class="page-content-wrapper">
+<div class="page-content-wrapper" style="padding-top: 50px;">
     <!--=======  testimonial area  =======-->
 
     <div class=" ">
         <div class="container">
             <div class="section-title-area text-center">
-                <h2 class="section-title bold-font my_heading">Share the love</h2>
+                <!-- <h2 class="section-title bold-font my_heading">Share the love</h2> -->
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -474,99 +323,6 @@
     <!--=======  End of testimonial area  =======-->
 </div>
 
-<div class="product-slider-text-area section-space bg_light_blue">
-    <!--=======  product slider with text wrapper  =======-->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="product-slider-text-wrapper">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="product-slider-text-wrapper__text">
-                                <h2 class="title bold-font dark_color">Find the Right Mattress for you</h2>
-                                <p class="description">Choosing the right mattress is important for restful sleep. Althrough all of our mattresses are designed for yur ultimate comfort and wellness, selecting a specific one based on your lifestyle and nedds helps you get the wholesome relaxation you desire. Let us find the right italian Bed mattress for you.</p>
-                                <a href="" class="megamenu_btn">Visit our store</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <!--=======  product slider wrapper  =======-->
-
-                            <div class="product-slider-wrapper theme-slick-slider" data-slick-setting='{
-                                        "slidesToShow": 2,
-                                        "slidesToScroll": 1,
-                                        "arrows": true,
-                                        "dots": false,
-                                        "autoplay": false,
-                                        "speed": 500,
-                           
-                                    }' data-slick-responsive='[
-                                        {"breakpoint":1501, "settings": {"slidesToShow": 2, "slidesToScroll": 2, "arrows": false} },
-                                        {"breakpoint":1199, "settings": {"slidesToShow": 2, "slidesToScroll": 1, "arrows": false} },
-                                        {"breakpoint":991, "settings": {"slidesToShow": 2,"slidesToScroll": 2, "arrows": true, "dots": false} },
-                                        {"breakpoint":767, "settings": {"slidesToShow": 2,"slidesToScroll": 2,  "arrows": true, "dots": false} },
-                                        {"breakpoint":575, "settings": {"slidesToShow": 2, "slidesToScroll": 2,"arrows": true, "dots": false} },
-                                        {"breakpoint":479, "settings": {"slidesToShow": 1,"slidesToScroll": 1, "arrows": false, "dots": false} }
-                                    ]'>
-
-                                <div class="col">
-                                    <!--=======  single short view product  =======-->
-                                    <div class="single-grid-product">
-                                        <div class="single-grid-product__image">
-                                            <a href="" class="image-wrap">
-                                                <img src="<?= base_url() ?>assets/images/store-slide1.png" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!--=======  End of single short view product  =======-->
-                                </div>
-                                <div class="col">
-                                    <!--=======  single short view product  =======-->
-                                    <div class="single-grid-product">
-                                        <div class="single-grid-product__image">
-                                            <a href="" class="image-wrap">
-                                                <img src="<?= base_url() ?>assets/images/store-slide-2.png" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!--=======  End of single short view product  =======-->
-                                </div>
-
-                            </div>
-                            <!--=======  End of product slider wrapper  =======-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--=======  End of product slider with text wrapper  =======-->
-</div>
-
-
-<section class="clients">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h2 class="clients_head bold-font dark_color">100% Italian-made with traditional processing</h2>
-            </div>
-            <div class="col-lg-8">
-                <div class="row text-center">
-                    <div class="col-sm-4">
-                        <img src="<?= base_url() ?>assets/images/partner-3.png" alt="">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="<?= base_url() ?>assets/images/partner-2.png" alt="">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="<?= base_url() ?>assets/images/partner-1.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <div class="cta-area cta-bg cta-bg--two-sagar">
@@ -586,6 +342,326 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="page-content-wrapper">
+    <!--=======  product carousel area  =======-->
+
+    <div class="section-title-area text-center">
+        <h2 class="section-title semi-bold my_heading">Shop our pillows</h2>
+    </div>
+
+    <div class="product-carousel-area section-space">
+        <!--====================  product slider area ====================-->
+
+        <div class="product-slider-area">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!--=======  product slider wrapper  =======-->
+
+                        <div class="product-slider-wrapper theme-slick-slider" data-slick-setting='{
+                        "slidesToShow": 4,
+                        "slidesToScroll": 4,
+                        "arrows": true,
+                        "dots": true,
+                        "autoplay": false,
+                        "speed": 500,
+                        "prevArrow": {"buttonClass": "slick-prev", "iconClass": "fa fa-angle-left" },
+                        "nextArrow": {"buttonClass": "slick-next", "iconClass": "fa fa-angle-right" }
+                    }' data-slick-responsive='[
+                        {"breakpoint":1501, "settings": {"slidesToShow": 4, "slidesToScroll": 4, "arrows": false} },
+                        {"breakpoint":1199, "settings": {"slidesToShow": 3, "slidesToScroll": 3, "arrows": false} },
+                        {"breakpoint":991, "settings": {"slidesToShow": 2,"slidesToScroll": 2, "arrows": true, "dots": false} },
+                        {"breakpoint":767, "settings": {"slidesToShow": 2,"slidesToScroll": 2,  "arrows": true, "dots": false} },
+                        {"breakpoint":575, "settings": {"slidesToShow": 2, "slidesToScroll": 2,"arrows": false, "dots": true} },
+                        {"breakpoint":479, "settings": {"slidesToShow": 1,"slidesToScroll": 1, "arrows": true, "dots": false} }
+                    ]'>
+
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+                                <div class="single-grid-product">
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="onsale dark_color semi-bold">BEST SELLER</span>
+                                        </div>
+                                        <a href="" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/collections/pillow-1.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Classic Pillow</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Foamed viscoelastic pillow, with a traditional
+                                            soap shape.</p>
+                                    </div>
+                                </div>
+                                <!--=======  End of single short view product  =======-->
+                            </div>
+
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+                                <div class="single-grid-product">
+
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="hot semi-bold">Sale</span>
+                                        </div>
+                                        <a href="#" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/collections/pillow-2.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Classic Pillow</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Foamed viscoelastic pillow, with a traditional
+                                            soap shape</p>
+                                    </div>
+                                </div>
+
+                                <!--=======  End of single short view product  =======-->
+                            </div>
+
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+
+                                <div class="single-grid-product">
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="onsale dark_color semi-bold">BEST SELLER</span>
+                                        </div>
+                                        <a href="#" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/collections/pillow-3.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Classic Pillow</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Foamed viscoelastic pillow, with a traditional
+                                            soap shape</p>
+                                    </div>
+                                </div>
+
+                                <!--=======  End of single short view product  =======-->
+                            </div>
+
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+
+                                <div class="single-grid-product">
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="hot semi-bold">Sale</span>
+                                        </div>
+                                        <a href="#" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/collections/pillow-4.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Classic Pillow</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Foamed viscoelastic pillow, with a traditional
+                                            soap shape</p>
+                                    </div>
+                                </div>
+
+                                <!--=======  End of single short view product  =======-->
+                            </div>
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+                                <div class="single-grid-product">
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="onsale dark_color semi-bold">BEST SELLER</span>
+                                        </div>
+                                        <a href="" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/elegance.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Elegance</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Mattresses for supreme comfort and elegant sleep await</p>
+                                    </div>
+                                </div>
+                                <!--=======  End of single short view product  =======-->
+                            </div>
+
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+                                <div class="single-grid-product">
+
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="hot semi-bold">Sale</span>
+                                        </div>
+                                        <a href="#" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/glory.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Glory</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Glorious mattress designed for quality sleep and wellness</p>
+                                    </div>
+                                </div>
+
+                                <!--=======  End of single short view product  =======-->
+                            </div>
+
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+                                <div class="single-grid-product">
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="onsale dark_color semi-bold">BEST SELLER</span>
+                                        </div>
+                                        <a href="#" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/ninfa.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Ninfa</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Lush mattresses that lull you to sleep</p>
+                                    </div>
+                                </div>
+                                <!--=======  End of single short view product  =======-->
+                            </div>
+                            <div class="col">
+                                <!--=======  single short view product  =======-->
+                                <div class="single-grid-product">
+                                    <div class="single-grid-product__image">
+                                        <div class="product-badge-wrapper">
+                                            <span class="hot semi-bold">Sale</span>
+                                        </div>
+                                        <a href="#" class="image-wrap">
+                                            <img src="<?= base_url() ?>assets/images/posedian.png" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <h3 class="title dark_color"><a href="" class="dark_color semi-bold">Posedian</a></h3>
+                                        <a href="#" class="favorite-icon dark_color semi-bold">
+                                            $1500
+                                        </a>
+                                        <p>Enter sleep heaven an almighty mattresses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=======  End of product carousel area  =======-->
+</div>
+
+<div class="page-content-wrapper gray_bg faq-padding">
+
+    <!--====================  faq area ====================-->
+
+    <div class="faq-area section-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="faq-wrapper">
+
+
+                        <!--=======  single faq  =======-->
+
+                        <div class="single-faq">
+                            <h2 class="faq-title semi-bold dark_color">Frequently Asked Questions</h2>
+                            <div class="accordion" id="shippingInfo">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0" style="background: #f1f3fc;">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                What Shipping Methods are Available?
+                                            </button>
+                                            <i class="fa fa-angle-down"></i>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#shippingInfo">
+                                        <div class="card-body">
+                                            <p>Depending on the item(s) you purchase on garageclothing.com and the location to which the item(s) will be delivered, different shipping methods will be available. At checkout, you will be prompted to choose a variety of shipping methods.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Do You Ship Internationally?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#shippingInfo">
+                                        <div class="card-body">
+                                            <p>At the moment, we only ship to Canada and the United States. For international orders, please contact internationalorders@dynamite.ca.
+                                                If you have any questions, please don’t hesitate to contact our Customer Experience Department by mail or by phone at 1-888-882-1138 (Canada) and 1-888-342-7243 (USA).</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                How to Track My Order?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#shippingInfo">
+                                        <div class="card-body">
+                                            <p>Once your order has been shipped, you will receive an email with your tracking and shipping information. Simply click on the link in the email or select the ‘track order’ option here and enter your order number and email address or sign into your account.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                How Long Will It Take To Get My Package?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#shippingInfo">
+                                        <div class="card-body">
+                                            <p>We ship only on business days. Business days are from Monday to Friday, excluding holidays. Any order placed after 12 P.M. ET will be processed the following business day. Due to a high volume period, your order may take longer than anticipated. For remote locations, please add an additional 2-5 business day to each shipping method’s expected delivery time. If you are not sure whether your location is remote, please click here for all the details.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="limit">
+                                    <p>Showing 4 of 13 <a href="">Show ALL FAQs</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====================  End of faq area  ====================-->
+
+
 </div>
 
 

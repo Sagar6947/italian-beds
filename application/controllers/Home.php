@@ -10,4 +10,11 @@
 
 			$this->load->view('home', $data);
 		}
+
+		public function collection()
+		{
+			$data['title']= "Our collections - Italian Beds";
+
+			$this->load->view('collection', $data);
+		}
 	}

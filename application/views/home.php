@@ -9,7 +9,7 @@
 	<img src="<?= base_url() ?>assets/images/home-banner.png" alt="">
 	<div class="banner_content">
 		<h4>Spring for the best comfort and sleep</h4>
-		<a href="#" class="bold-font">Shop now</a>
+		<a href="#" class="semi-bold">Shop now</a>
 	</div>
 </section>
 
@@ -34,7 +34,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section-title-area text-center">
-					<h2 class="section-title bold-font my_heading">The Best Sleep Duo</h2>
+					<h2 class="section-title semi-bold my_heading">The Best Sleep Duo</h2>
 				</div>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 
 							<div class="single-category single-category--type-one text-center">
 								<div class="single-category--type-one__image">
-									<a href=""><img src="<?= base_url() ?>assets/images/mattress.jpg" class="img-fluid" alt=""></a>
+									<a href="<?= base_url('collection') ?>"><img src="<?= base_url() ?>assets/images/mattress.jpg" class="img-fluid" alt=""></a>
 									<span class="floter">UP TO $600 OFF</span>
 								</div>
 								<div class="single-category--type-one__content d-flex align-items-center justify-content-between">
@@ -67,11 +67,11 @@
 
 							<div class="single-category single-category--type-one text-center">
 								<div class="single-category--type-one__image">
-									<a href=""><img src="<?= base_url() ?>assets/images/pilow.jpg" class="img-fluid" alt=""></a>
+									<a href="<?= base_url('collection') ?>"><img src="<?= base_url() ?>assets/images/pilow.jpg" class="img-fluid" alt=""></a>
 									<span class="floter">UP TO $600 OFF</span>
 								</div>
 								<div class="single-category--type-one__content d-flex align-items-center justify-content-between">
-									<h2 class="title mb-0 bold-fonts dark_color">Shop Pillows</h2>
+									<h2 class="title mb-0 semi-bolds dark_color">Shop Pillows</h2>
 									<a href="" class="warranty_label"> <img src="<?= base_url() ?>assets/images/dark-shield.png" alt=""> 10-Year Warranty </a>
 								</div>
 							</div>
@@ -93,7 +93,7 @@
 	<!--=======  product carousel area  =======-->
 
 	<div class="section-title-area text-center">
-		<h2 class="section-title bold-font my_heading">Experience great sleep and holistic wellness</h2>
+		<h2 class="section-title semi-bold my_heading">Experience great sleep and holistic wellness</h2>
 	</div>
 
 	<div class="product-carousel-area section-space">
@@ -129,15 +129,15 @@
 								<div class="single-grid-product">
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="onsale dark_color bold-font">BEST SELLER</span>
+											<span class="onsale dark_color semi-bold">BEST SELLER</span>
 										</div>
 										<a href="" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/elegance.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Elegance</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Elegance</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Mattresses for supreme comfort and elegant sleep await</p>
@@ -152,15 +152,15 @@
 
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="hot" style="font-weight: bolder;">Sale</span>
+											<span class="hot semi-bold">Sale</span>
 										</div>
 										<a href="#" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/glory.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Glory</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Glory</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Glorious mattress designed for quality sleep and wellness</p>
@@ -176,15 +176,15 @@
 								<div class="single-grid-product">
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="onsale dark_color bold-font">BEST SELLER</span>
+											<span class="onsale dark_color semi-bold">BEST SELLER</span>
 										</div>
 										<a href="#" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/ninfa.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Ninfa</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Ninfa</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Lush mattresses that lull you to sleep</p>
@@ -200,15 +200,15 @@
 								<div class="single-grid-product">
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="hot" style="font-weight: bolder;">Sale</span>
+											<span class="hot semi-bold">Sale</span>
 										</div>
 										<a href="#" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/posedian.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Posedian</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Posedian</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Enter sleep heaven an almighty mattresses</p>
@@ -222,15 +222,15 @@
 								<div class="single-grid-product">
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="onsale dark_color bold-font">BEST SELLER</span>
+											<span class="onsale dark_color semi-bold">BEST SELLER</span>
 										</div>
 										<a href="" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/elegance.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Elegance</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Elegance</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Mattresses for supreme comfort and elegant sleep await</p>
@@ -245,15 +245,15 @@
 
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="hot" style="font-weight: bolder;">Sale</span>
+											<span class="hot semi-bold">Sale</span>
 										</div>
 										<a href="#" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/glory.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Glory</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Glory</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Glorious mattress designed for quality sleep and wellness</p>
@@ -268,15 +268,15 @@
 								<div class="single-grid-product">
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="onsale dark_color bold-font">BEST SELLER</span>
+											<span class="onsale dark_color semi-bold">BEST SELLER</span>
 										</div>
 										<a href="#" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/ninfa.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Ninfa</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Ninfa</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Lush mattresses that lull you to sleep</p>
@@ -289,15 +289,15 @@
 								<div class="single-grid-product">
 									<div class="single-grid-product__image">
 										<div class="product-badge-wrapper">
-											<span class="hot" style="font-weight: bolder;">Sale</span>
+											<span class="hot semi-bold">Sale</span>
 										</div>
 										<a href="#" class="image-wrap">
 											<img src="<?= base_url() ?>assets/images/posedian.png" class="img-fluid" alt="">
 										</a>
 									</div>
 									<div class="single-grid-product__content">
-										<h3 class="title dark_color"><a href="" class="dark_color bold-font">Posedian</a></h3>
-										<a href="#" class="favorite-icon dark_color bold-font">
+										<h3 class="title dark_color"><a href="" class="dark_color semi-bold">Posedian</a></h3>
+										<a href="#" class="favorite-icon dark_color semi-bold">
 											$1500
 										</a>
 										<p>Enter sleep heaven an almighty mattresses</p>
@@ -326,7 +326,7 @@
 					<div class="cta-content">
 						<h3 class="title">Find out which mattress is best</br> for you!</h3>
 						<p class="subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
-						<a href="" class="theme-button cta-btn bold-font">Compare Now</a>
+						<a href="" class="theme-button cta-btn semi-bold">Compare Now</a>
 					</div>
 				</div>
 
@@ -340,7 +340,7 @@
 
 <section class="buy_now">
 	<div class="content">
-		<h3 class="bold-font">Buy Now Pay Later</h3>
+		<h3 class="semi-bold">Buy Now Pay Later</h3>
 		<a href="">More Details</a>
 	</div>
 </section>
@@ -353,7 +353,7 @@
 	<div class=" ">
 		<div class="container">
 			<div class="section-title-area text-center">
-				<h2 class="section-title bold-font my_heading">Share the love</h2>
+				<h2 class="section-title semi-bold my_heading">Share the love</h2>
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
@@ -365,7 +365,7 @@
 							<div class="col-lg-6">
 								<div class="testimonial-image">
 									<img src="<?= base_url() ?>assets/images/testi_image.png" class="img-fluid" alt="">
-									<span class="review bold-font dark_color">See all reviews</span>
+									<span class="review semi-bold dark_color">See all reviews</span>
 								</div>
 							</div>
 
@@ -483,7 +483,7 @@
 					<div class="row">
 						<div class="col-lg-5">
 							<div class="product-slider-text-wrapper__text">
-								<h2 class="title bold-font dark_color">Find the Right Mattress for you</h2>
+								<h2 class="title semi-bold dark_color">Find the Right Mattress for you</h2>
 								<p class="description">Choosing the right mattress is important for restful sleep. Althrough all of our mattresses are designed for yur ultimate comfort and wellness, selecting a specific one based on your lifestyle and nedds helps you get the wholesome relaxation you desire. Let us find the right italian Bed mattress for you.</p>
 								<a href="" class="megamenu_btn">Visit our store</a>
 							</div>
@@ -548,7 +548,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="clients_head bold-font dark_color">100% Italian-made with traditional processing</h2>
+				<h2 class="clients_head semi-bold dark_color">100% Italian-made with traditional processing</h2>
 			</div>
 			<div class="col-lg-8">
 				<div class="row text-center">
@@ -592,13 +592,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="clients_head bold-font dark_color">#DesignedForWellness</h2>
+				<h2 class="clients_head semi-bold dark_color">#DesignedForWellness</h2>
 				<p class="para_text">Speak to our expert sleep consultants and ensure all your sleep needs are met. Get their timely assistance by video, call or in-store.</p>
 
 				<ul>
 					<li>3/455 Scarborough Beach, Road Osborne Park, WA 6017</li>
 					<li>Monday - Friday: 9am - 6pm</li>
-					<li>Saturday  Sunday: 10am - 7pm</li>
+					<li>Saturday Sunday: 10am - 7pm</li>
 				</ul>
 			</div>
 			<div class="col-lg-8">
