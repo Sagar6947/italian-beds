@@ -9839,11 +9839,11 @@ section.features-area .features_box .box p {
 	background: #f1f3fc;
 }
 
-#headingOne h5{
+.faq-icon h5{
 	position: relative;
 }
 
-#headingOne h5 i{
+.faq-icon h5 i{
 	position: absolute;
     left: inherit;
     right: 18px;

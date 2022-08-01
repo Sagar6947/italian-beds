@@ -590,7 +590,7 @@
                             <h2 class="faq-title semi-bold dark_color">Frequently Asked Questions</h2>
                             <div class="accordion" id="shippingInfo">
                                 <div class="card">
-                                    <div class="card-header" id="headingOne">
+                                    <div class="card-header faq-icon" id="headingOne">
                                         <h5 class="mb-0" style="background: #f1f3fc;">
                                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                 What Shipping Methods are Available?
@@ -606,11 +606,12 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingTwo">
+                                    <div class="card-header faq-icon" id="headingTwo">
                                         <h5 class="mb-0">
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 Do You Ship Internationally?
                                             </button>
+                                            <i class="fa fa-angle-down"></i>
                                         </h5>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#shippingInfo">
@@ -621,11 +622,12 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingThree">
+                                    <div class="card-header faq-icon" id="headingThree">
                                         <h5 class="mb-0">
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                 How to Track My Order?
                                             </button>
+                                            <i class="fa fa-angle-down"></i>
                                         </h5>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#shippingInfo">
@@ -635,11 +637,12 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingFour">
+                                    <div class="card-header faq-icon" id="headingFour">
                                         <h5 class="mb-0">
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                                 How Long Will It Take To Get My Package?
                                             </button>
+                                            <i class="fa fa-angle-down"></i>
                                         </h5>
                                     </div>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#shippingInfo">
