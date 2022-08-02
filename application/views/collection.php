@@ -253,7 +253,7 @@
         <div class="title text-center" style="margin-bottom: 30px;">
             <h2 class="text-white">Let our sleep experts help you discover better sleep.</h2>
         </div>
-        <div class="row text-center gap-36">
+        <div class="row text-center">
             <div class="col-lg-4 col-md-10 cta_box">
                 <img src="<?= base_url() ?>assets/images/collections/msg.png" alt="">
                 <h6>Call Us</h6>

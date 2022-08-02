@@ -17,4 +17,11 @@
 
 			$this->load->view('collection', $data);
 		}
+
+		public function about()
+		{
+			$data['title']= "About Us - Italian Beds";
+
+			$this->load->view('about', $data);
+		}
 	}

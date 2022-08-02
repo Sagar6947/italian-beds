@@ -7,6 +7,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['collection'] = 'home/collection';
+$route['about'] = 'home/about';
 
 
 // $route['blogdetails/(:any)/(:any)'] = 'home/blog/$1/$2';

@@ -37,6 +37,7 @@
                                 <h4 class="footer-widget__title">Support</h4>
                                 <nav class="footer-widget__navigation">
                                     <ul>
+                                        <li><a href="<?= base_url('about') ?>">About Us</a></li>
                                         <li><a href="#">Contact Us</a></li>
                                         <li><a href="#">Warranty</a></li>
                                         <li><a href="#">Faq</a></li>

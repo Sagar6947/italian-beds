@@ -16,6 +16,7 @@
     <link href="<?= base_url() ?>assets/css/vendors.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/shivani.css" rel="stylesheet">
 
 
     <!-- Revolution Slider CSS -->
